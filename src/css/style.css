@@ -1,0 +1,51 @@
+:root{
+    --primary-color: rgb(25, 22, 63);
+    --second-color:rgb(125, 141, 194);
+    --light-mode: rgba(250, 250, 250, 0.699);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;200;300;400&display=swap');
+
+body{
+    background-color: var(--primary-color);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    color:var(--second-color);
+    border-color:var(--second-color) ;
+    margin-left: 860px;
+}
+
+input{
+    border-radius: 7px;
+}
+
+button{
+    border-radius: 8px;
+    border-color: white;
+    color: white;
+    background-color: rgb(42, 110, 165);
+}
+
+.inputContainer{
+    align-items: center;
+    justify-content: center;
+    margin-left: 753px;
+    margin-top: 100px;
+
+    
+}
+
+.container{
+    padding: 5px;
+    background-color:var(--second-color);
+    width: 300px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 800px;
+    border-radius: 10px;
+}
+
